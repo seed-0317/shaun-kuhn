@@ -9,4 +9,4 @@
 * https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 And a new picture to brighten your day:
-![cat](http://s2.dmcdn.net/Ub1O8/1280x720-mCQ.jpg)
+![funny?](https://img.buzzfeed.com/buzzfeed-static/static/enhanced/webdr03/2013/7/25/5/enhanced-buzz-17903-1374744218-23.jpg!)
