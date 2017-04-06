@@ -8,6 +8,5 @@
 * https://git-scm.com/docs/gitglossary
 * https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
-And a picture to brighten your day:
-
-![squirrel](https://s-media-cache-ak0.pinimg.com/564x/e1/ab/b7/e1abb74ec20a7d7be7b48318dd7c3623.jpg)
+And a new picture to brighten your day:
+![funny?](https://img-9gag-fun.9cache.com/photo/4681109_700b.jpg)
