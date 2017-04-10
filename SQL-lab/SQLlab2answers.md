@@ -1,44 +1,45 @@
 # SQL lab 2 answers
 
 ## 2.1
-1.Task – Select all records from the Employee table.
+
+_1.Task – Select all records from the Employee table._
 
 select * from employees;
 
-2.Task – Select all records from the Employee table where last name is King.
+_2.Task – Select all records from the Employee table where last name is King._
 
 select * from employees
 where last_name = 'King';
 
-3.Task – Select all records from the Employee table where first name is Andrew and REPORTSTO is NULL.
+_3.Task – Select all records from the Employee table where first name is Andrew and REPORTSTO is NULL._
 
 select * from employees
 where first_name = 'Andrew'
 and reports_to is null;
 
 ## 2.2
-1.Task – Select all albums in Album table and sort result set in descending order by title.
+_1.Task – Select all albums in Album table and sort result set in descending order by title._
 
 select * from albums
 order by title ASC;
 
-2.Task – Select first name from Customer and sort result set in ascending order by city
+_2.Task – Select first name from Customer and sort result set in ascending order by city_
 
 select first_name from customers
 order by city ASC;
 
 ## 2.3
-1.Task – Insert two new records into Genre table
+_1.Task – Insert two new records into Genre table_
 
 insert into genres(id, name) values (26,'Country'), (27,'Bluegrass');	
 
-2.Task – Insert two new records into Employee table
+_2.Task – Insert two new records into Employee table_
 
 insert into employees (id, last_name, first_name, title, reports_to, birth_date, hire_date, address, city, state, country, postal_code, phone, fax, email) 
 values (9,'Blow', 'Joe', 'IT Staff', 6,'1972-02-28 00:00:00', '2012-09-18 00:00:00', '1234 Default Ave', 'Calgary', 'AB', 'Canada', 'T5K 2N1', '+1 (403) 261-3728', '+1 (403) 262-3322', 'joe@chinookcorp.com'),
 (10,'Freely', 'Ip', 'Custodian', 1, '1992-02-10 00:00:00', '2010-12-28 00:00:00', '777 Urinal LN', 'Calgary', 'AB', 'Canada', 'T2P 2T3', '+1 (403) 295-8721', '+1 (403) 262-4422', 'ip@chinookcorp.com' );
 
-3.Task – Insert two new records into Customer table
+_3.Task – Insert two new records into Customer table_
 
 insert into customers (id, first_name, last_name, company, address, city, state, country, postal_code, phone, email, support_rep_id)
 values (60, 'Jiminy', 'Cricket', 'Disney', '123 Dreams come true BLVD', 'Orlando', 'FL', 'USA', '40302', '+1 (800) 291-3829','bigdaddycricket@disney.com',5), 
