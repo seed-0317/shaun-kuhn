@@ -1,5 +1,3 @@
-#header!
-
 #SQL lab 2 answers
 
 ##2.1
