@@ -9,4 +9,4 @@
 * https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 And a new picture to brighten your day:
-![funny?](https://img-9gag-fun.9cache.com/photo/4681109_700b.jpg)
+![funny?](http://www.datamation.com/img/2009/07/art-programming.jpg)
