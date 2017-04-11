@@ -70,8 +70,12 @@ where total >= 15 and total <= 50;
 
 _Task – Select all employees hired between 1st of June 2003 and 1st of March 2004_
 
+select * from employees
+where cast(hire_date as date) between '2003-06-01' and '2004-03-01';
+
 ## 2.7
 _Task – Delete a record in Customer table where the name is Robert Walter 
 (There may be constraints that rely on this, find out how to resolve them)_
+
 
 
