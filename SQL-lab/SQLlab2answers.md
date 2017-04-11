@@ -80,9 +80,20 @@ _Task – Delete a record in Customer table where the name is Robert Walter
 delete from invoice_lines
 where id = 50;
 
+alter table invoice_lines
+    drop constraint fk_invoice_line_invoice_id;
+    
 delete from invoices
 where customer_id = 32;
+
+alter table invoices
+    drop CONSTRAINT fk_invoice_customer_id;
 
 delete from customers
 where first_name = 'Robert' and last_name = 'Walter';
 
+alter table invoice_lines add constraint fk_invoice_line_invoice_id
+    FOREIGN KEY (invoice_id) references invoices;
+   
+alter table invoices
+    add CONSTRAINT fk_invoice_customer_id FOREIGN KEY (customer_id) REFERENCES customers;
