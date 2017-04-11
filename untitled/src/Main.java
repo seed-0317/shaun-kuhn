@@ -1,28 +1,56 @@
-/**
- * Created by vso513 on 4/5/17.
- */
 
-import java.lang.Math.*;
-import java.util.Arrays;
 
-class main {                                 //0, 1, 2, 3, 4, 5, 6, 7,   8, 9,  10, 11,  12
-    public static void main(String[] args) { //0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+public class Person {
 
-        int fSum = 1;
-        int n = 2;
-        if (n < 2) {
+    private int age;
 
-            fSum = n;
-        }
 
-        while (n > 1){
-            fSum = fSum * n;
-            n = n-1;
+
+    public Person(int initialAge) {
+
+        this.age = initialAge;
+
+        if (age < 0) {
+
+            age = 0;
+
+            System.out.println("Age is not valid, setting age to 0");
 
         }
-        System.out.println(fSum);
+
+    }
+
+    public void amIOld(int age) {
+
+
+
+        if (this.age < 14){
+
+            System.out.println("You are young..");
+
+        }
+
+        else if (this.age > 12 && this.age < 19){
+
+            System.out.println("You are a teenager..");
+
+        }
+
+        else System.out.println("You are old..");
+
+    }
+
+        ​
+
+    public void yearPasses(int age) {
+
+        this.age = age + 1;
+
     }
 
 
+}
 
-    }
+        
+                {
+
