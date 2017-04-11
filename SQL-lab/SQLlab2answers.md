@@ -46,18 +46,32 @@ values (60, 'Jiminy', 'Cricket', 'Disney', '123 Dreams come true BLVD', 'Orlando
 (61, 'Mike', 'Jordon', 'Bulls', '444 Miracle Mile', 'Chiacgo', 'IL', 'USA', '90210', '+1 (540) 647-8392', 'MJ23@bulls.com',5);
 
 ## 2.4
-1.Task – Update Aaron Mitchell in Customer table to Robert Walter
+_Task – Update Aaron Mitchell in Customer table to Robert Walter_
 
-2.Task – Update name of artist in the Artist table “Creedence Clearwater Revival” to “CCR”
+update customers set first_name = 'Robert', last_name = 'Walter'
+where first_name = 'Aaron' and last_name = 'Mitchell';
+
+_Task – Update name of artist in the Artist table “Creedence Clearwater Revival” to “CCR”_
+
+update artists set name = 'CCR'
+where name = 'Creedence Clearwater Revival';
 
 ## 2.5
-1.Task – Select all invoices with a billing address like “T%”
+_Task – Select all invoices with a billing address like “T%”_
+
+select * from invoices
+where invoices.billing_address like 'T%';
 
 ## 2.6
-1.Task – Select all invoices that have a total between 15 and 50
+_Task – Select all invoices that have a total between 15 and 50_
 
-2.Task – Select all employees hired between 1st of June 2003 and 1st of March 2004
+select * from invoices
+where total >= 15 and total <= 50;
+
+_Task – Select all employees hired between 1st of June 2003 and 1st of March 2004_
 
 ## 2.7
-1.Task – Delete a record in Customer table where the name is Robert Walter 
-(There may be constraints that rely on this, find out how to resolve them).
+_Task – Delete a record in Customer table where the name is Robert Walter 
+(There may be constraints that rely on this, find out how to resolve them)_
+
+
