@@ -77,5 +77,12 @@ where cast(hire_date as date) between '2003-06-01' and '2004-03-01';
 _Task – Delete a record in Customer table where the name is Robert Walter 
 (There may be constraints that rely on this, find out how to resolve them)_
 
+delete from invoice_lines
+where id = 50;
 
+delete from invoices
+where customer_id = 32;
+
+delete from customers
+where first_name = 'Robert' and last_name = 'Walter';
 
