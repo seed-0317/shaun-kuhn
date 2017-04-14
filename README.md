@@ -4,9 +4,10 @@
 
 ### Here are a couple reference links I'm using:
 
-* https://github.com/0nn0/terminal-mac-cheatsheet
-* https://git-scm.com/docs/gitglossary
-* https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+* [MAC stuff](https://github.com/0nn0/terminal-mac-cheatsheet)
+* [Git](https://git-scm.com/docs/gitglossary)
+* [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+* [Java](http://introcs.cs.princeton.edu/java/11cheatsheet)
 
 And a new picture to brighten your day:
 ![funny?](http://www.datamation.com/img/2009/07/art-programming.jpg)
