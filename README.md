@@ -8,7 +8,9 @@
 * [Git](https://git-scm.com/docs/gitglossary)
 * [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 * [Java](http://introcs.cs.princeton.edu/java/11cheatsheet)
+* [Bootstrap](https://getbootstrap.com/components)
 
-And a new picture to brighten your day:
-![funny?](http://www.datamation.com/img/2009/07/art-programming.jpg)
-![world](https://i.redd.it/zbqqkmy3kyqy.png)
+![funny?](https://s-media-cache-ak0.pinimg.com/564x/7f/cc/a7/7fcca7e106c83611de5c0a6466f86cf8.jpg)
+
+
+![world](http://www.datamation.com/imagesvr_ce/8378/new-developer.jpg)
