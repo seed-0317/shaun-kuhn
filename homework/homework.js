@@ -10,7 +10,24 @@ module.exports = homework;
 */
 homework.fibonacci = function(n){
 
-};
+        var x = 0;
+        var y = 1;
+
+        if (n === 0) {
+            y = 0;
+        }
+
+        for (var i = 1; i <= n; i++) {
+
+            if (i % 2 === 0) {
+                x = x + y;
+            }
+            else y = x + y;
+        }
+
+        return Math.max(x,y);
+
+    };
 
 /*
   2. Sort array of integers
@@ -21,7 +38,25 @@ homework.fibonacci = function(n){
 */
 homework.sort = function(array) {
 
-};
+        if (array.length < 2) {
+            return array;
+        }
+
+        var arr;
+        var p0 = array;
+        for(var i = 0; i < array.length; i++) {
+            for(var h=i+1; h<array.length; h++) {
+
+                if (p0[i] > array[h]) {
+                    arr = p0[i];
+                    p0[i] = array[h];
+                    array[h] = arr;
+                }
+            }
+        }
+        return p0;
+
+    };
 
 /*
   3. Return the factorial of n
@@ -32,7 +67,14 @@ homework.sort = function(array) {
 */
 homework.factorial = function(n){
 
+    if (n < 2) {
+        return n;
+    }else
+
+        var k = n-1;
+    return n*homework.factorial(k);
 };
+
 
 /*
   4. Rotate left
@@ -46,7 +88,28 @@ homework.factorial = function(n){
 */
 homework.rotateLeft = function(array, n) {
 
+
+    var newOne = array.slice();
+    var len = array.length;
+
+
+    if (n > len) {
+        n= n-len;
+    }
+    var cnt = 0;
+    for (var i=0; i < len; i++) {
+
+        if (i < len - n) {
+            newOne[i] = array[i+n];
+        }
+        else {
+            newOne[i] = array[cnt];
+            cnt = cnt + 1;
+        }
+    }
+    return newOne;
 };
+
 
 /*
   5. Balanced Brackets
@@ -70,4 +133,22 @@ homework.rotateLeft = function(array, n) {
 */
 homework.balancedBrackets = function(bracketsString){
 
+    var sL = BS.length;
+    var sum = 0;
+    var torf = false;
+    if (sL < 2 || sL % 2 != 0) {
+        return false;
+    }
+    else {
+
+        var x = BS.charAt(0);
+        var y = BS.charAt(sL-1);
+
+        if ((x == '(' && y == ')') || (x == '[' && y == ']') || (x == '{' && y == '}')) {
+            torf = true;
+        }
+    }
+
+    return torf;
+    
 };
