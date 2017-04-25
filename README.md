@@ -4,7 +4,7 @@
 
 ### Here are a couple reference links I'm using:
 
-* [MAC stuff](https://github.com/0nn0/terminal-mac-cheatsheet)
+* [Mac stuff](https://github.com/0nn0/terminal-mac-cheatsheet)
 * [Git](https://git-scm.com/docs/gitglossary)
 * [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 * [Java](http://introcs.cs.princeton.edu/java/11cheatsheet)
