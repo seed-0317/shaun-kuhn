@@ -9,6 +9,7 @@
 * [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 * [Java](http://introcs.cs.princeton.edu/java/11cheatsheet)
 * [Bootstrap](https://getbootstrap.com/components)
+* [Angular Scope](https://toddmotto.com/digging-into-angulars-controller-as-syntax/)
 
 ![funny?](https://s-media-cache-ak0.pinimg.com/564x/7f/cc/a7/7fcca7e106c83611de5c0a6466f86cf8.jpg)
 
