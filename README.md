@@ -11,7 +11,7 @@
 * [Bootstrap](https://getbootstrap.com/components)
 * [Angular Scope](https://toddmotto.com/digging-into-angulars-controller-as-syntax/)
 
-![funny?](https://s-media-cache-ak0.pinimg.com/564x/7f/cc/a7/7fcca7e106c83611de5c0a6466f86cf8.jpg)
+![funny?](https://imgs.xkcd.com/comics/code_quality_2_2x.png)
 
 
 ![IntellJ](http://alvinalexander.com/sites/default/files/styles/preview/public/photos/yesterdays-regex-drunk-genius.jpg?itok=pTfc34P9)
