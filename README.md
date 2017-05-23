@@ -10,6 +10,7 @@
 * [Java](http://introcs.cs.princeton.edu/java/11cheatsheet)
 * [Bootstrap](https://getbootstrap.com/components)
 * [Angular Scope](https://toddmotto.com/digging-into-angulars-controller-as-syntax/)
+* [Go Stuff](https://www.golang-book.com/books/intro)
 
 ![funny?](https://imgs.xkcd.com/comics/code_quality_2_2x.png)
 
